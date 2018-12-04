@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    margin-top: 200px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    background: grey;
+    height: 100%;
+}
+
+img {
+    transition: 0.7s;
+    max-width: 250px;
+    margin: 0 10px;
+}
+
+img:hover {
+    filter: grayscale(9) contrast(7);
+}
